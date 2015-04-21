@@ -1,0 +1,1298 @@
+(dp0
+S'buildDestination'
+p1
+S''
+p2
+sS'saveDestination'
+p3
+VC:\u005cUsers\u005cJustin\u005cDesktop\u005cLD Z32.tws
+p4
+sS'target'
+p5
+S'sugarcane'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+I130
+aI5
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp18
+S'text'
+p19
+V<<nobr>>\u000a<<set $playerhp = 10>>\u000a<<set $days = 0>> /%if 30 days reached, rescue arrives %/\u000a<<set $oxygen = 20>> /%if 0, player dies %/\u000a<<set $co2 = 5>>	/%if oxy/co2 > 1, playerhp -1 %/\u000a<<set $treePower = 1>> /% 0-10 %/\u000a<<set $treeNumber = 1>>\u000a<<set $treeOxy = 0>> /% each day: treePower*treeNumber %/\u000a<<set $fungiFound = 0>>\u000a<<set $fungiUsed = 0>>\u000a<<set $daysFungi = 0>>\u000a<<set $fungiSymb = 0>> /% 0-5 %/\u000a<<set $biotoxin = 0>> /% added by treenumber*treepower*fungiSymb %/\u000a<<set $timesGardened = 0>>\u000a<<set $foundenemy = 0>>\u000a<<set $enemypower = 1>> /% goes up every few days %/\u000a<<set $enemynumber = 1>> /% added everyday, removed during attack %/\u000a<<set $enemyAttackNumber = 1>> \u000a<<endnobr>>\u000aSector Z32... The astroid cluster.\u000a\u000aFifty years ago Sector Z32 was a special zone in the astroid belt that all nations agreed to close off to everybody. No visits, no commercialization, no goverment outposts. \u000a\u000aThe only human presence Z32 has are the border satellites and patrols that keep anyone from ever reaching it.\u000a\u000a[[a chance of a lifetime|Your Situation]]
+p20
+sS'title'
+p21
+VStart
+p22
+sS'modified'
+p23
+ctime
+struct_time
+p24
+((I2015
+I4
+I20
+I15
+I53
+I55
+I0
+I110
+I1
+tp25
+(dp26
+tp27
+Rp28
+sS'tags'
+p29
+(lp30
+Vintro
+p31
+asS'created'
+p32
+g24
+((I2015
+I4
+I18
+I13
+I23
+I18
+I5
+I108
+I1
+tp33
+(dp34
+tp35
+Rp36
+sbsa(dp37
+g12
+I00
+sg13
+(lp38
+I1
+aI7
+asg15
+(itiddlywiki
+Tiddler
+p39
+(dp40
+g19
+VA Month in Z32
+p41
+sg21
+VStoryTitle
+p42
+sg23
+g24
+((I2015
+I4
+I18
+I13
+I54
+I33
+I5
+I108
+I1
+tp43
+(dp44
+tp45
+Rp46
+sg29
+(lp47
+sg32
+g24
+((I2015
+I4
+I18
+I13
+I23
+I18
+I5
+I108
+I1
+tp48
+(dp49
+tp50
+Rp51
+sbsa(dp52
+g12
+I00
+sg13
+(lp53
+I0
+aI129
+asg15
+(itiddlywiki
+Tiddler
+p54
+(dp55
+g19
+VJustin Cox\u000a@Ammypendent\u000aLudum Dare 32 Jam\u000aApril 2015
+p56
+sg21
+VStoryAuthor
+p57
+sg23
+g24
+((I2015
+I4
+I20
+I2
+I38
+I20
+I0
+I110
+I1
+tp58
+(dp59
+tp60
+Rp61
+sg29
+(lp62
+sg32
+g24
+((I2015
+I4
+I18
+I13
+I23
+I18
+I5
+I108
+I1
+tp63
+(dp64
+tp65
+Rp66
+sbsa(dp67
+g12
+I00
+sg13
+(lp68
+F379.0
+aF3.0
+asg15
+(itiddlywiki
+Tiddler
+p69
+(dp70
+g19
+VWhile the ship is being loaded you sent messages to your friends, family and current job. You're pretty sure you'll get fired but if this venture works out, it wouldn't matter anyways.\u000a\u000aYou get the signal that your supplies have finished loading onto your craft. A few minutes later you get cleared for pickup.\u000a\u000aTaking a deep breath you stare up at the sky as your ship gets attached to the platform, waiting for your ride to come. Out of the blueness a gigantic dark shape starts to form. \u000a\u000aYou double check your restraints before seeing the giant mass falling down as it takes up more and more of your vision. Your heartbeat starts to race. \u000a\u000aFew things in this solar systerm gives you the same adrenaline rush than being picked up by a space elevator. Being at the pickup point really feels like God's finger is coming out of the sky to crush you until it stops just short and instead lifts you up into the heavens.\u000a\u000aThe sky quickly gets blocked out by the mass as your breathing picks up. You remember the many times you and your friends had contests to keep your heartrate as low as you can while watching it, the only time you won was when you were madly drunk.\u000a\u000aSuddenly you feel the platform start to lift as the space elevator catches it. You sink partly into your seat as it accelerates up. Moments later the sky darkens and you see the familar sight of the stars.\u000a\u000aAfter finally detaching from the platform at the top you engage the autopilot and plug the permit chip into the computer. Getting up you go to main cabin and open the sleep capsule to get in it.\u000a\u000aYou relax, listening to the hum of your engines as the capsule closes and works its magic.\u000a\u000a[[a peaceful sleep?|A Hard Awakening]]
+p71
+sg21
+VThe Journey
+p72
+sg23
+g24
+((I2015
+I4
+I18
+I20
+I50
+I1
+I5
+I108
+I1
+tp73
+(dp74
+tp75
+Rp76
+sg29
+(lp77
+Vintro
+p78
+asg32
+g24
+((I2015
+I4
+I18
+I14
+I7
+I55
+I5
+I108
+I1
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
+g12
+I00
+sg13
+(lp84
+F505.0
+aF0.0
+asg15
+(itiddlywiki
+Tiddler
+p85
+(dp86
+g19
+VYou suddenly wake up feeling slightly nauseated. Disoriented you hear the alarms sounding as your sleep capsule opens up and you quickly try to get your bearings.\u000a\u000aThe shock moments later sends you to the floor. More alarms go off as you scramble to the cabin to get the situation.\u000a\u000aYou reached Z32.\u000a\u000aYou rub your eyes as you it dawns upon you, you're here. The modern day Space wilderness. The permit IS real! The satellites and patrols let you in without a hitch.\u000a\u000aBut you realize you have a problem. You pull up the warnings interface and see what it is. \u000a\u000aA small asteroid has hit the ship. It was one of those anomolies which are too fast and small for the ship to dodge in time. What luck you have!\u000a\u000aPulling up the damage report, you notice that a few systems and the engine are having problems. It seems fixable but you'll have to land the ship soon before the problem becomes dire.\u000a\u000aYou start scanning the area for a place to land. Many of the asteroids are fairly small and have unstable rotations.\u000a\u000aSuddenly something promising comes on your radar. It's huge. And it's almost completely spherical as well!\u000a\u000a[[you make your way to the giant asteroid|Arrival]]
+p87
+sg21
+VA Hard Awakening
+p88
+sg23
+g24
+((I2015
+I4
+I20
+I15
+I38
+I20
+I0
+I110
+I1
+tp89
+(dp90
+tp91
+Rp92
+sg29
+(lp93
+Vintro
+p94
+asg32
+g24
+((I2015
+I4
+I18
+I15
+I9
+I25
+I5
+I108
+I1
+tp95
+(dp96
+tp97
+Rp98
+sbsa(dp99
+g12
+I00
+sg13
+(lp100
+F633.0
+aF1.0
+asg15
+(itiddlywiki
+Tiddler
+p101
+(dp102
+g19
+VNavigating through Z32, you finally arrive to find a massive asteroid. It spins very slowly in your view, the surface peppered with craters, with one giant one. \u000a\u000aAs you stare at it, you get a strange feeling...\u000a\u000aUsing your ship's data, you find that it has .1G gravity! That's over half the gravity of Earth's moon!\u000a\u000a"You have the option to claim one (1) stellar body in Z32."\u000a\u000aRaw materials have value in space. Any asteroid of five kilometers in diameter is worth a small fortune. \u000a\u000aSomething this size is worth... unfathamable.\u000a\u000aYou scan the surface and find a suitable spot that'll protect against stray meteors. After landing the ship, you suit up. If it weren't for that stupid rock you would be very giddy, but then again you probably wouldn't have been woken up until you were deeper in Z32 and completely missed it.\u000a\u000aYou depressurize the chamber and start climbing the ladder to open the hatch on top of the ship. As much as you wanted to do a whole "small step for man" moment, taking care of the ship comes first.\u000a\u000a...\u000a\u000a. . .\u000a\u000a.  .  .\u000a\u000aCrap!\u000a\u000aIt hit the reserve oxygen tank... and the environment system!\u000a\u000a[[what are my options?|Your Plan]]
+p103
+sg21
+VArrival
+p104
+sg23
+g24
+((I2015
+I4
+I20
+I15
+I41
+I31
+I0
+I110
+I1
+tp105
+(dp106
+tp107
+Rp108
+sg29
+(lp109
+Vintro
+p110
+asg32
+g24
+((I2015
+I4
+I18
+I16
+I28
+I45
+I5
+I108
+I1
+tp111
+(dp112
+tp113
+Rp114
+sbsa(dp115
+g12
+I00
+sg13
+(lp116
+F760.0
+aF2.0
+asg15
+(itiddlywiki
+Tiddler
+p117
+(dp118
+g19
+VChecking the current levels it seems you have <<$oxygen>> unit-days of oxygen left, but the larger problem is that your air already has <<$co2>> unit-days of CO~~2~~, which if it reaches the same level as oxygen, you're going to have a hard time breathing.\u000a\u000aBut the good thing is that your equipment is completely fine. And one thing you have to help your air problem is genetically engineered instant tree.\u000a\u000aWhile your ship isn't small, it's not large enough to fit a fully grown tree. So it's time to make a base camp.\u000a\u000aYour vacations on the Moon are paying off as you adjust to the low gravity. After a few hours of labor you get the camp structure built and hooked up your ship. After building a greenhouse, you retrieve the instant tree capsule and carefully plant it and water it...\u000a\u000aYou wait a couple minutes at first you doubt there's enough sunlight for it to- yes! You spot a small stem and some leaves already poking out. It was not long that it eventually grew taller than you, a true marvel of modern science!\u000a\u000aWith the tree growing, you feel like your camp is in good enough shape to last the thirty days needed to claim it. You go back to the ship and start the claim process.\u000a\u000a[[Now your camp is complete!|Camp]]
+p119
+sg21
+VYour Plan
+p120
+sg23
+g24
+((I2015
+I4
+I18
+I23
+I48
+I31
+I5
+I108
+I1
+tp121
+(dp122
+tp123
+Rp124
+sg29
+(lp125
+Vintro
+p126
+asg32
+g24
+((I2015
+I4
+I18
+I16
+I40
+I40
+I5
+I108
+I1
+tp127
+(dp128
+tp129
+Rp130
+sbsa(dp131
+g12
+I00
+sg13
+(lp132
+F484.0
+aF243.0
+asg15
+(itiddlywiki
+Tiddler
+p133
+(dp134
+g19
+V<<nobr>>\u000a<<set $days += 1>>\u000a/% Oxygen/Co2, Tree & Player stats %/\u000a<<if $days > 1>>\u000a	<<set $oxygen -= 1>>\u000a	<<set $co2 += 1>>\u000a	<<set $treeOxy += ($treeNumber * $treePower)>>\u000a	<<if $treeOxy > 6 >>\u000a		<<set $oxygen += 2>>\u000a		<<set $co2 -= 1>>\u000a		<<set $treeOxy = 0>>\u000a	<<else if $treeOxy > 4 >>\u000a		<<set $oxygen += 1>>\u000a		<<set $co2 -= 0.5>>\u000a		<<set $treeOxy = 0>>\u000a	<<endif>>\u000a	<<if $oxygen / $co2 < 1 >>\u000a		<<set $playerhp -= 1>>\u000a	<<else>>\u000a		<<if $playerhp < 10>><<set $playerhp += 1>><<endif>>\u000a	<<endif>>\u000a<<endif>>\u000a/% Fungi Symbiosis %/\u000a<<if $fungiUsed is 1>>\u000a	<<set $daysFungi += 1>>\u000a	<<if $daysFungi % 7 is 6 and $fungiSymb < 5>>\u000a		<<set $fungiSymb += 1>>\u000a	<<endif>>\u000a<<endif>>\u000a/% Enemy and Biotoxin stats %/\u000a<<if $foundenemy is 1>>\u000a	<<set $biotoxin +=($treeNumber * $treePower * ($fungiSymb+1))>>\u000a	<<set $enemynumber += 1>>\u000a	<<if $days % 6 is 0>>\u000a		<<set $enemypower += 1>>\u000a	<<endif>>\u000a	\u000a<<endif>>\u000a<<endnobr>>\u000aYou're at the camp on the giant asteroid in Z32. This is day <<$days>> on your expedition.\u000a<<if $days > 29>>\u000a[[Out of nowhere your ship gets a message!|Success!]]\u000a<<else>>\u005c\u000a<<if $oxygen < 1>>\u000aYou wake up with a massive headache, alarms ringing in your ear. You struggle to get up as you breathe heavily and reach for the status tablet. Your Oxygen levels are in danger level! \u000aIf you stay any longer you're not going to make it!\u000a\u000a[[you use the best of your strength to get to the ship cockpit|Escape!]]\u000a<<else>>\u005c\u000aChecking your air status, you see you have <<$oxygen>> unit-days of oxygen and <<$co2>> unit-days of CO~~2~~.\u000a<<if $oxygen/$co2 < 1>>\u005c\u000aYou're finding it hard to breathe and you're sure this probably isn't good for your health.\u000a<<else>>\u005c\u000aSince the relative CO~~2~~ levels are low you're breathing alright.\u000a<<endif>>\u005c\u000a<<if $playerhp < 0>>\u000aAs you try to get out of your sleeping pod you collapse on the floor, almost passing out. You slowly crawl up to check your health status... red warnings everywhere. If you get any worse you're not going to make it out.\u000a\u000a[[you use the best of your strength to get to the ship cockpit|Escape!]]\u000a<<else>>\u005c\u000a<<if $playerhp < 3>>\u005c\u000aYou're feeling pretty bad right now. If this gets any worse you're going to need to bail on this.\u000a<<else if $playerhp < 7>>\u005c\u000aIt's been a bit rough but you think you'll manage the rest of the time here.\u000a<<else if $playerhp > 6>>\u005c\u000aYou're physically feeling pretty good so far.\u000a<<endif>>\u000a\u000a<<nobr>>\u000a<<if $treeNumber > 0>>\u000a<<if $treeNumber is 1>>\u000aIn your greenhouse you got a single tree, \u000a<<else if $treeNumber is 2>>\u000aYour duo of trees are in your greenhouse, \u000a<<else if $treeNumber > 12>>\u000aYou never expected to grow a forest but you pretty much have one in your greenhouse, last time you counted you had <<$treeNumber>> trees, \u000a<<else if $treeNumber > 6>>\u000aYour small grove of <<$treeNumber>> trees are starting to fill your greenhouse, \u000a<<else if $treeNumber > 2>>\u000aYour <<$treeNumber>> trees are in your greenhouse, you're glad to have a couple backups in case one of them dies, \u000a<<endif>>\u000a<<if $treePower < 3>>\u000athe leaves are pretty small but are still green, showing that they're doing their job at helping to boost your oxygen supply.\u000a<<else if $treePower > 2 and $treePower < 6>>\u000athe leaves are pretty healthy looking and even the bark looks sturdy.\u000a<<else if $treePower > 6>>\u000alush leaves and healthy bark would be an understatement. You've never seen such thick growth since you've visited one of those rainforest preserves.\u000a<<endif>>\u000a<<else>>\u000aYou look in the empty greenhouse... completely dead. You hope you'll make it for 30 days with what you have.\u000a<<endif>>\u000a<<endnobr>>\u000a<<if $foundenemy is 1>>\u005c\u000aSince you've learned of your tree's natual fighting power against the asteroid's current inhabitants, you've been collecting the sap. A pretty unconventional weapon you must admit.\u000a\u000aYou currently gathered <<$biotoxin>> tablespoons of the biotoxin. You've applied them to the branch you're using as a makeshift club and some other throwable items. Hopefully you will have enough the next time the aliens attack.\u000a<<endif>>\u000a\u000aAfter checking everything, you're ready to decide what to focus on today.\u000a\u000a[[work in the greenhouse|Greenhouse]]\u000a[[explore the giant asteroid|Exploration]]\u000a<<if $fungiFound is 1 and $fungiUsed is 0>>\u005c\u000a[[Use the fungi!|Use Fungi]]\u000a<<endif>>\u000a\u000a<<endif>>\u000a<<endif>>\u000a<<endif>>
+p135
+sg21
+VCamp
+p136
+sg23
+g24
+((I2015
+I4
+I20
+I17
+I55
+I20
+I0
+I110
+I1
+tp137
+(dp138
+tp139
+Rp140
+sg29
+(lp141
+VcoreLoop
+p142
+aVHUB
+p143
+asg32
+g24
+((I2015
+I4
+I18
+I17
+I41
+I34
+I5
+I108
+I1
+tp144
+(dp145
+tp146
+Rp147
+sbsa(dp148
+g12
+I00
+sg13
+(lp149
+F254.0
+aF5.0
+asg15
+(itiddlywiki
+Tiddler
+p150
+(dp151
+g19
+VYou can hardly believe it! You cling to the chip in your hand.\u000a\u000aInside it was a permit for a space expedition to Z32 and it includes rights to make a mineral claim of what you find!\u000a\u000aNobody has ever gotten one of these before. Not even the best universities with their qualified people. Not even the megacorporations with their ability to bend the laws and cozy up with policy makers.\u000a\u000aIt started as a stupid bet you made with your friends at your birthday party. Then suddenly yesterday you recieved official package, you double checked to make sure it was legitimate.\u000a\u000aMaybe some bureaucrat was sleeping on the job and didn't pay attention... or maybe he or she thought it would be a great joke to let a single person get something every space entrepreneur would kill to get.\u000a\u000aNow here you are, the chip in hand and walking to the hanger where your ship is. As soon as you get to the ship you plug it in and read through some of the terms again:\u000a\u000a-Permit is valid only for one (1) expedition only.\u000a-You cannot sell or transfer the permit to any third party.\u000a-You may bring __NO__ weapons to Z32.\u000a-You have the option to claim one (1) stellar body in Z32.\u000a-You must stay in Z32 for thirty (30) days on said stellar object for the claim to be valid.\u000a\u000a[[It's time to go|The Journey]]
+p152
+sg21
+VYour Situation
+p153
+sg23
+g24
+((I2015
+I4
+I19
+I0
+I54
+I44
+I6
+I109
+I1
+tp154
+(dp155
+tp156
+Rp157
+sg29
+(lp158
+Vintro
+p159
+asg32
+g24
+((I2015
+I4
+I18
+I20
+I11
+I0
+I5
+I108
+I1
+tp160
+(dp161
+tp162
+Rp163
+sbsa(dp164
+g12
+I00
+sg13
+(lp165
+F735.0
+aF429.0
+asg15
+(itiddlywiki
+Tiddler
+p166
+(dp167
+g19
+V<<if $foundenemy is 0>>\u005c\u000aWell, you got a good while before the thirty days are up, might as well take some time to explore the giant asteroid you hope to claim. \u000a	<<if $days > 1>>\u005c\u000aAlthough haven't seen anything out there yet, you get an uneasy feeling. It's probably just the fact you know you're the only person in Sector Z32.\u000a	<<endif>>\u000a[[check around the camp|Early Exploration]]\u000a<<else>>\u005c\u000aYou suit up and go through the depressurization chamber, exiting your base camp. Knowing that you're not alone on this giant asteroid, you grab your supply of your tree's biotoxin sap. \u000a	<<if $biotoxin < 10>>\u005c\u000aIt's not much, but it seems a little goes a long way against these aliens.\u000a	<<else if $biotoxin < 20>>\u005c\u000aYou're pretty sure you got plenty to manage a number of those alien creatures.\u000a	<<else>>\u005c\u000aFeeling confident in how much you have, you're sure you can take on any number of them.\u000a	<<endif>>\u000aTime to explore! Since there isn't any magnetic field on this asteroid, you'll have to go by landmarks on the surface.\u000a\u000a[[the giant crater|Crater]]\u000a[[the mountain range|Mountain]]\u000a[[the fissure|Fissure]]\u000a<<endif>>
+p168
+sg21
+VExploration
+p169
+sg23
+g24
+((I2015
+I4
+I19
+I19
+I54
+I14
+I6
+I109
+I1
+tp170
+(dp171
+tp172
+Rp173
+sg29
+(lp174
+VcoreLoop
+p175
+aVexplore
+p176
+asg32
+g24
+((I2015
+I4
+I19
+I2
+I19
+I38
+I6
+I109
+I1
+tp177
+(dp178
+tp179
+Rp180
+sbsa(dp181
+g12
+I00
+sg13
+(lp182
+F5.0
+aF255.0
+asg15
+(itiddlywiki
+Tiddler
+p183
+(dp184
+g19
+VYou decide to take another look at that strange fungal spore you picked up from your explorations. Going to your makeshift lab you retrieve the sealed capsule containing it and put it on the table.\u000a\u000aBack in the day, you recall reading in a book that some fungi can greatly help a tree's growth by creating a sort of delivery network of minerals. However this is... alien fungi... it could very well kill the tree and you'll have to rely on the <<$oxygen>> unit-days of oxygen...\u000a\u000a<<nobr>>\u000a<<if $oxygen > (30-$days)>>\u000aHowever... you should have enough oxygen to last the rest of your expedition, provided you don't have any more incidents. \u000a<<else>>\u000aThis is going to be very risky, if it kills all <<$treeNumber>> trees, you'll be out of luck. \u000a<<endif>>\u000a<<endnobr>>\u000aHeck with it! You already have more than enough evidence of extraterrestial life to probably become famous anyways. But one thing for sure, you're going to get in your suit first because last thing you want is to be infected by harmful spores.\u000a\u000aReturning suited up, you grab the spore capsule and take it to the greenhouse. You slowly open the capsule and grab the spore gently with some vice grips. You cut a small piece off to keep it in the capsule, should be a good enough sample to bring home.\u000a\u000aThe moment of truth.\u000a\u000aYou slowly make a tiny hole in the lattice material the trees are growing in and drop the fungi into it before covering it up. Then you lightly water the spot. It is done.\u000a\u000aNow... it's time to wait and see what happens. You bring a couple sensors into the greenhouse and a camera of the spot you planted it.\u000a\u000a[[the result...|Fungi Result]]
+p185
+sg21
+VUse Fungi
+p186
+sg23
+g24
+((I2015
+I4
+I19
+I14
+I50
+I43
+I6
+I109
+I1
+tp187
+(dp188
+tp189
+Rp190
+sg29
+(lp191
+VoneTime
+p192
+asg32
+g24
+((I2015
+I4
+I19
+I2
+I19
+I52
+I6
+I109
+I1
+tp193
+(dp194
+tp195
+Rp196
+sbsa(dp197
+g12
+I00
+sg13
+(lp198
+F165.0
+aF393.0
+asg15
+(itiddlywiki
+Tiddler
+p199
+(dp200
+g19
+V<<nobr>>\u000a<<set $timesGardened +=1>>\u000a<<endnobr>>\u000aYou decide to take the day to tend to the greenhouse. \u000a<<if $oxygen/$co2 < 1>>\u005c\u000aThe air is already getting problematic to breathe as it is. So getting the oxygen levels up is a priority.\u000a<<endif>>\u000a\u000aYou set out to work on adding more minerals and water to help fortify the artificial medium the trees grow on. \u000a<<if ($timesGardened % 5 is 4) or (Math.random(1)*15 > 12)>>\u005c\u000a	<<set $treePower += 1>>\u005c\u000aBy the end of the day it feels like your luck or persistence has finally paid off as you see the leaves of your instant tree getting larger. \u000a	<<if Math.random(1)*4 > 2>>\u000aOn top of that you got another bonus! The tree also dropped seed and you set out to plant it. At the end of the day it's already growing to another tree.\u000a<<set $treeNumber += 1>>\u005c\u000a	<<endif>>\u000a<<else>>\u000aA lot of work without much visible result... but you know you're making good progress.\u000a	<<if Math.random(1)*4 > 3>>\u000aOh cool! A tree dropped a seed and you make a new spot in the artificial medium to plant and water it. A few hours later, another tree has grown.\u000a<<set $treeNumber += 1>>\u005c\u000a	<<endif>>\u005c\u000a<<endif>>\u005c\u000a/% Enemy Encounter %/\u000a<<if $foundenemy is 0>>\u005c\u000aYou find it relaxing doing some garden work. You feel like a 22nd century version of the American frontier settlers you read about in history class. While you weren't expecting to garden at all during this expedition, you found it a great way to pass time.\u000a	<<if Math.random(1)*10 < 7>>\u000a	[[what's that sound?|First Encounter Greenhouse]]\u000a	<<else>>\u000a	[[time to call it a day|Camp]]\u000a	<<endif>>\u000a<<else>>\u005c\u000aDuring your time gardening you keep a careful watch on your permimeter sensors. You have no knowing when the next time you'll encounter the Z32 aliens.\u000a	<<if Math.random(7)*35 < $enemypower*$enemynumber>>\u000a	[[an alarm gets tripped!|Greenhouse Battle]]	\u000a	<<else>>\u000a	[[not today luckily, time to call it a day|Camp]]\u000a	<<endif>>\u000a<<endif>>
+p201
+sg21
+VGreenhouse
+p202
+sg23
+g24
+((I2015
+I4
+I20
+I2
+I11
+I17
+I0
+I110
+I1
+tp203
+(dp204
+tp205
+Rp206
+sg29
+(lp207
+VcoreLoop
+p208
+asg32
+g24
+((I2015
+I4
+I19
+I2
+I20
+I41
+I6
+I109
+I1
+tp209
+(dp210
+tp211
+Rp212
+sbsa(dp213
+g12
+I00
+sg13
+(lp214
+F7.0
+aF380.0
+asg15
+(itiddlywiki
+Tiddler
+p215
+(dp216
+g19
+V<<nobr>>\u000a<<set $fungiSymb = 1>>\u000a<<set $treePower += 1>>\u000a<<set $fungiUsed = 1>>\u000a<<endnobr>>\u000aThe task of waiting was boring to say the least. Obviously the fungi isn't engineered like your instant trees. You caught yourself nodding off a few times... no change... yet...\u000a\u000a...\u000a\u000a. . .\u000a\u000aYou start to hear the sound of beeping as you wake up. Realizing that you napped through the better part of the day you get up and stretch, breathing in the nice sweet smell coming from the vents, undoubtedly from the greenhou-\u000a\u000aOH SHIT!\u000a\u000aOhshitohshitohshitohshit!!\u000a\u000aYou realized you forgot to seal the ventiliation between the greenhouse the rest of your camp!\u000a\u000aPanicking you quickly you quickly look at the sensor readings. You realize the beeping was the warning indicator showing that there was a drastic change in the environment.\u000a\u000aPollen level... +5ppm\u000aTree auxin concentration... +40%\u000aTree biotoxin concentration.... +100%\u000aOxygen production.... +<<print (($treePower/($treePower-1))-1)*100>>%\u000aAir quality.... clean\u000a\u000aYou stare at the numbers... and then go over them again. You look at the cameras and notice the leaves on the tree noticably larger.\u000a\u000aYou take a deep breath... this experiment was... a success. Thank the stars.\u000a\u000a[[you take the rest of the day off to relax and prepare for tomorrow|Camp]]\u000a
+p217
+sg21
+VFungi Result
+p218
+sg23
+g24
+((I2015
+I4
+I20
+I2
+I50
+I7
+I0
+I110
+I1
+tp219
+(dp220
+tp221
+Rp222
+sg29
+(lp223
+VoneTime
+p224
+asg32
+g24
+((I2015
+I4
+I19
+I14
+I49
+I39
+I6
+I109
+I1
+tp225
+(dp226
+tp227
+Rp228
+sbsa(dp229
+g12
+I00
+sg13
+(lp230
+F939.0
+aF451.0
+asg15
+(itiddlywiki
+Tiddler
+p231
+(dp232
+g19
+V<<set $mountainVisit += 1>>\u000a<<set $findChance = Math.random(0)*5>>\u000a<<if $mountainVisit < 2>>\u005c\u000aYou look up at the mountain range. The steep climbs, the winding canyons, the hidden valleys, you only caught a glimpse of it when you came in and the scanned map doesn't do it justice.\u000a\u000aNormally this kind of exploration would take days, even weeks, however luckily the gravity is so low you can pretty much sprint up like a Terran mountain goat.\u000a\u000aYou want to enjoy yourself... but you know that somewhere out there are probably more of those creatures. Knowing that they are out there makes this otherwise desolate landscape feel like a wilderness. As you make your way through the unkonwn terrain, you hold your biotoxin covered club, ready at a moment's notice.\u000a<<else>>\u005c\u000aYou decide to head up to the mountain range again, you're sure to find something new on your climb up a different pathway. At the very least if you don't find anything of note, the exercise would be nice.\u000a\u000aTaking full advantage of the low gravity, you start making your way up. Within the hour the base camp is looking like a miniture set in the distance.\u000a\u000aBeing more familar with the landscape, relax in some places that you know you can't be ambushed. But as soon as you reach a blind corner or uncharted territory, you hold your club covered in tree sap.\u000a<<endif>>\u000aHours later you find yourself <<print either("at the summit of the mountain. After making sure you're alone you take the time to take in the stunning stellar view. You make sure your recorder is capturing every moment. You manage to spot a couple other asteroids almost moving in orbit to the one you are on.","in a small valley between peaks. You hop up on a high spot and looks around, counting the numerous small craters and rock formations. A few places you see other meteors that landed softly enough to not fully bury itself in the surface.","moving through a canyon. You carefully tread through, observing the crevasses and small hollow caves that once held gaseous elements before being split open. Since there's no elements for erosion you make sure to keep your distance from the sharp walls.")>>\u000a\u000a\u000a<<if $findChance < 3>>\u005c\u000aYour timer gives off a notice that the day is half over and that you should make your way back. You didn't see anything partically special to take, other than your memories and recordings of your trek in asteroid's mountains. No matter, it's been rewarding in its own way.\u000a<<else if $findChance > 2 and $fungiFound is 0>>\u005c\u000aYou hear your timer's midday notice and you start to head back. However as soon as you take a step you foot sinks into an unusually soft spot of ground and almost loose your balance; you pull it back quickly as a reaction and make a large plume of dust. Great.\u000a\u000aSuddenly a small object bounces off your helmet and you reflexively catch it. It must have been a rock in that loose dust... wait that's not a rock!\u000a\u000aYou move away from the floating cloud a dust and look carefully at the object. You've seen your share of space rocks (you're surrounded by them!) but this thing looks... organic. Like... a truffle or fungi spore.\u000a\u000aCan't tell for sure without the equipment. You open up one of your suit's small capsules and drop the object into it before sealing it back up. Your curiosity is making you want to get back to camp all the more sooner.\u000a<<set $fungiFound = 1>>\u000a<<else if $findChance > 3 and $findChance < 4>>\u005c\u000aAs soon as you start to turn back, something on the ground catches your eye. You reach down and pick it up...\u000a\u000aHuh... it's a rather strange <<print either("crystal. It manages to catch the light in a way you haven't seen before. Could be a new undiscovered mineral, or at the very least a cool collector item.","metallic alloy. You're no expert in metals but its structure feels unusual.","glassy object. You look through it in the sunlight and see particles in it. A few moments later though you see a few drops form and you realize it's ice, probably from an ancient comet. You bet that some scientist back home would love to study it.")>>\u000a\u000aYou put it in a capsule for safe keeping and you make your way back.\u000a<<else if $findChance > 4>>\u005c\u000a	<<if Math.random(1)*50 > 47 >>\u005c\u000aSince you have a bit extra time you decide to make your way back a different route. Navigating the terrain some more you turn the corner and...\u000a\u000a...\u000a\u000aWhat?\u000a\u000aWHAT?!\u000a\u000aFirst aliens... and now.... Egyptian-like RUINS!?!\u000a\u000aLike... really? It's even pyramid shaped! With obelisks!!\u000a\u000aYou take a couple deep breaths. Z32 has officially completely and utterly destroyed your view of life in the universe. Accepting the possibility of other life outside Earth is one thing. Accepting that other life can form civilization is another thing. But having it staring you right in the face...\u000a\u000aThis discovery is 100% out of your league. You slowly input the location on your suit's map, take a few photos and turn around to go back to camp.\u000a\u000aYou feel like you're at the butt end of the greatest cosmic joke right now... like you're stuck in a game where the designer has a thing for ancient alien conspiracy theories...\u000a\u000aMaybe you're just hallucinating... yeah, you probably shouldn't have bought those SuperSpaceMeals(tm) that were on deep discount.\u000a	<<else>>\u005c\u000aSince you have a bit extra time you decide to make your way back a different route. Navigating the terrain some more you turn the corner and spot a strange formation.\u000a\u000aYou're not quite sure but part of it feels like it's artificial. The surface is too flat and smooth considering everything else in the area isn't. You take the time to make photos and document the location before you head back to camp.\u000a\u000aYou get this lingering feeling that you might not be on an asteroid.\u000a	<<endif>>\u000a<<endif>>\u000a<<if Math.random(5)*20 < $enemypower*$enemynumber>>\u000a	[[your suit's proximity alarm goes off on the way back|Exploration Battle]]\u000a	<<else>>\u000a	[[time to call it a day|Camp]]\u000a	<<endif>>
+p233
+sg21
+VMountain
+p234
+sg23
+g24
+((I2015
+I4
+I20
+I17
+I45
+I16
+I0
+I110
+I1
+tp235
+(dp236
+tp237
+Rp238
+sg29
+(lp239
+VcoreLoop
+p240
+aVexplore
+p241
+asg32
+g24
+((I2015
+I4
+I19
+I15
+I53
+I52
+I6
+I109
+I1
+tp242
+(dp243
+tp244
+Rp245
+sbsa(dp246
+g12
+I00
+sg13
+(lp247
+F951.0
+aF192.0
+asg15
+(itiddlywiki
+Tiddler
+p248
+(dp249
+g19
+V<<set $fissureVisit += 1>>\u000a<<set $findChance = Math.random(0)*5>>\u000a<<if $fissureVisit < 2>>\u005c\u000aThe fissure...\u000a\u000aHuman instinct doesn't like dark places for good reason. Darkness is the true embodiment of the unkown. Danger often lurks there, but sometimes you can find great rewards as well. The only instinct that trumps human's dislike of the dark is the curiosity to venture into it. And that curiosity is what's driving you.\u000a\u000aYou're pretty sure the fissure was started whatever impact that make the giant crater, and the exposed gas and liquid elements that were previously trapped escaped, creating a intricate cave network. Good thing you prepared to navigate it: extra booster fuel, headlamp, a few backup supplies and a glow-in-the-dark paint.\u000a\u000aYou reach a suitable entry point and start to make your descent. You clutch your club and check your reserves of biotoxins. There's a possibility this may be the lair of the alien creatures...\u000a<<else>>\u005c\u000aYou decide to work your courage up again and take another journey into the center of the asteroid.\u000a\u000aAs before, you made sure to get the extra supplies needed to traverse the dark landscape. Reaching the entrance that you found before, you take a deep breath and look around. No trace of activity as usual, but it still feels like you're about to enter the lion's den.\u000a<<endif>>\u000aYou work your way into the fissure. There are numerous splits so you decide to choose one and make your mark with the paint. Hours later you reach <<print either("large cavern. It must have been a large pocket of an acidic compound until it escaped as much of the walls are unusually smooth. Much of the metallic walls reflect your headlamp and light up the place, it's really stunning. You turn on your recorder and take some footage, you can't wait to show this when you get back.","a narrow canyon. It seems that the path you took is going through the middle of the fissue as you spot large gaps in the ceiling into the starry heavens.","a tight windy maze of dark pathways. You make liberal use of your glow in the dark paint as you run into multiple dead ends and spots too tight to fit through. You clutch your stick, ready for anything that could pop up around the corner.")>>\u000a\u000a<<if $findChance < 3>>\u005c\u000aYou didn't notice it was midday until your clock goes off. Probably a good idea to go back. As cool as it was exploring this dark fissure <<if $fissureVisit > 1>>again<<endif>>, you're looking forward to seeing some sunlight. You're glad that your glow markings are easy to spot coming back and follow them to the entrance.\u000a<<else if $findChance > 2 and $fungiFound is 0>>\u005c\u000aYou hear your clock's midday notice and you decide to turn around. However on your way back you foot suddenly sinks into an unusually soft spot of ground. What the!? You trip over but catch yourself, your hands sinking partway into the ground as it creates an almost blinding cloud of dust. Soft landing at least...\u000a\u000aAs you get up you feel something strange against your hand. You grab it and pull it out of the dirt.\u000a\u000aYou move away from the floating cloud a dust and look carefully at the object with your lamp. You've seen your share of space rocks (you're surrounded by them!) but this thing looks... organic. Like... a truffle or fungi spore.\u000a\u000aCan't tell for sure without the equipment. You open up one of your suit's small capsules and drop the object into it before sealing it back up. Your curiosity is making you want to get back to camp all the more sooner.\u000a<<set $fungiFound = 1>>\u000a<<else if $findChance > 3 and $findChance < 4>>\u005c\u000aAs interesting as it is, the fissure is starting to get to you and you figure you should head back. Knowing you're completely alone inside the asteroid has given you a claustrophobic feeling. Looking at your clock you see it's almost time anyways.\u000a\u000aClimbing back out you see something unusual in a tiny corner and investigate it. You find it's <<print either("a pitch black crystal. That's unusual, it doesn't reflect any light at all from your headlamp. This might be something undiscovered.","a vein of shiny metal along the wall. You think it might be platinum or palladium. You find a piece you can break off.","a pool of smooth material. You look at it carefully before you drop a bit of dust off of it and see it bounce off as the material changes texture. Strange. You get your small tongs and find you can pull off a piece that hardens like metal.")>>\u000a\u000aYou put it in a capsule for safe keeping and you make your way back.\u000a<<else if $findChance > 4>>\u005c\u000aAs interesting as it is, the fissure is starting to get to you and you figure you should head back... wait what's that?\u000a\u000aYou look at the wall nearby.\u000a\u000aIs that carvings? \u000a\u000aYou can't tell for sure but looking at it sends chills down your spine. You decide to use your recorder and make note on its location before moving on.\u000a<<endif>>\u000a<<if Math.random(4)*19 < $enemypower*$enemynumber>>\u000a	[[your suit's proximity alarm goes off on the way back|Exploration Battle]]\u000a	<<else>>\u000a	[[time to call it a day|Camp]]\u000a	<<endif>>
+p250
+sg21
+VFissure
+p251
+sg23
+g24
+((I2015
+I4
+I20
+I17
+I44
+I51
+I0
+I110
+I1
+tp252
+(dp253
+tp254
+Rp255
+sg29
+(lp256
+VcoreLoop
+p257
+aVexplore
+p258
+asg32
+g24
+((I2015
+I4
+I19
+I15
+I54
+I22
+I6
+I109
+I1
+tp259
+(dp260
+tp261
+Rp262
+sbsa(dp263
+g12
+I00
+sg13
+(lp264
+F581.0
+aF401.0
+asg15
+(itiddlywiki
+Tiddler
+p265
+(dp266
+g19
+VYou look around the area, getting used to walking around in low gravity. The landscape reminds you of the old Moon photos before it got developed into spaceports and cities.\u000a\u000aGood thing you brought your recorder with you! The pictures of your base camp and surrounding area looks worthy of a magazine, but even more impressive is the view of the sky! Looking up, you spot many of the asteroids moving across, hundreds of tiny wobbly moons without a set pattern.\u000a\u000a<<if Math.random(0,10) < 8>>\u000a	[[what was that that in the distance?|First Encounter Outside]]\u000a<<else>>\u000a	[[time to call it a day|Camp]]\u000a<<endif>>
+p267
+sg21
+VEarly Exploration
+p268
+sg23
+g24
+((I2015
+I4
+I19
+I20
+I39
+I3
+I6
+I109
+I1
+tp269
+(dp270
+tp271
+Rp272
+sg29
+(lp273
+VcoreLoop
+p274
+aVexplore
+p275
+asg32
+g24
+((I2015
+I4
+I19
+I15
+I56
+I0
+I6
+I109
+I1
+tp276
+(dp277
+tp278
+Rp279
+sbsa(dp280
+g12
+I00
+sg13
+(lp281
+F939.0
+aF323.0
+asg15
+(itiddlywiki
+Tiddler
+p282
+(dp283
+g19
+V<<set $craterVisit += 1>>\u000a<<set $findChance = Math.random(0)*5>>\u000a<<if $craterVisit < 2>>\u005c\u000aCraters are the one formation Earth hardly has, mostly because of erosion and active tectonics. The moon's craters are often a tourist location, and over the years they get covered in tracks as everybody tries to make their memorable 'step' on the surface.\u000a\u000aSeeing a crater that nobody has been to is such a breathtaking sight. You stood there on the rim, looking over the landscape for the better part of the hour, soaking it all in.\u000a\u000aLuckily the only real places to hide in a crater is in smaller craters. Still, that means if you could be a sitting duck the alien creatures can spot from kilometers away. So it's not so much the ambush but the fact that running and hiding is all the more difficult.\u000a\u000aBut you are prepared. In your hand you have your trusty tree branch covered in biotoxic sap... well, toxic to the aliens at least.\u000a<<else>>\u005c\u000aYou decide to take another short journey to the asteroid's giant crater. Skipping along the low gravity, you reach the top of the ridge and look out at the giant valley below riddled with smaller craters.\u000a\u000aIt's still a breathtaking sight to behold. Knowing you are the first person in history to have explored this corner of the solar system here makes it feel all the more personal.\u000a\u000aYou scan the area, no trace of those aliens. That's good. You decide to pick a different part of the crater to explore.\u000a<<endif>>\u000aHours later you end up <<print either("walking through part of the vast valley of the crater. Even by travelling quickly with the low gravity assisting you, it feels like you haven't gotten anywhere close to the center. Whatever had made this mark thousands or millions of years ago must have been enormous, and the impact probably pushed this asteroid into Z32.","skipping across a field of smaller craters. You take caution when you near the edges of some of them, they could make perfect hiding spots. The other danger is some of them are steep enough to cause trouble if you fall in, although you do have your emergency booster pack if that happens. Still, you enjoy yourself looking at all the random patterns on the surface, some of them looking orgainzed.","climbing along the inner wall of the giant crater. What looked like smooth bumpy ridges in the distance were in fact not smooth at all; in fact most of the wall is populated by the heavier rocks and pieces that got pushed by the impact, creating holes and caves. You take your time to cross carefully, watching your footing and for any unpleasant surprises.")>>\u000a\u000a<<if $findChance < 3>>\u005c\u000aAt midday the timer goes off, telling you to head back. You didn't find anything souviniers this time but the sights and recordings of your day long trip in asteroid's crater. Not a bad way to spend your day, hopefully the trip back will be uneventful.\u000a<<else if $findChance > 2 and $fungiFound is 0>>\u005c\u000aYou hear your timer's midday notice and you start to head back. However as soon as you take a step you foot sinks into an unusually soft spot of ground and almost loose your balance; you pull it back quickly as a reaction and make a large plume of dust. Great.\u000a\u000aSuddenly a small object bounces off your helmet and you reflexively catch it. It must have been a rock in that loose dust... wait that's not a rock!\u000a\u000aYou move away from the floating cloud a dust and look carefully at the object. You've seen your share of space rocks (you're surrounded by them!) but this thing looks... organic. Like... a truffle or fungi spore.\u000a\u000aCan't tell for sure without the equipment. You open up one of your suit's small capsules and drop the object into it before sealing it back up. Your curiosity is making you want to get back to camp all the more sooner.\u000a<<set $fungiFound = 1>>\u000a<<else if $findChance > 3 and $findChance < 4>>\u005c\u000aYou check your clock and decide to head home. Using the landmarks and your map you skip along in the low gravity until you spot something at your feet. Almost stepping on it you turn around after a few hops to pick it up.\u000a\u000aInteresting... you found a <<print either("small meteor. Its shape really looks mesmerizing. While almost everyone has a meteor collection nowadays, it's fun to collect neat ones in your travels.","nugget of metal. Looking at it in the light it gives off the unmistakable color. Awesome! Gold! While no longer as valuable as ancient times, it's still pretty and popular in fashion today.","shard of... something. You look through it in the sunlight before you notice smoke begins to come off and realize it's frozen gas! You recall some institutes always looking for samples in their studies.")>>\u000a\u000aYou put it in a capsule for safe keeping and you make your way back.\u000a<<else if $findChance > 4>>\u005c\u000aYou check your clock and decide to head home. Using the landmarks and your map you skip along in the low gravity until you spot something...\u000a\u000aStrange. You move closer and confirm. You're not an expert of archeology, but you're pretty sure you just found blocks. They look like they were once a wall but the impact that made the crater destroyed it. You make sure to record its location before moving on.\u000a\u000aA lingering thought on your mind is telling you this might be part of why Z32 was closed.\u000a<<endif>>\u000a<<if Math.random(5)*20 < $enemypower*$enemynumber>>\u000a	[[your suit's proximity alarm goes off on the way back|Exploration Battle]]\u000a	<<else>>\u000a	[[time to call it a day|Camp]]\u000a	<<endif>>
+p284
+sg21
+VCrater
+p285
+sg23
+g24
+((I2015
+I4
+I20
+I17
+I45
+I4
+I0
+I110
+I1
+tp286
+(dp287
+tp288
+Rp289
+sg29
+(lp290
+VcoreLoop
+p291
+aVexplore
+p292
+asg32
+g24
+((I2015
+I4
+I19
+I16
+I14
+I7
+I6
+I109
+I1
+tp293
+(dp294
+tp295
+Rp296
+sbsa(dp297
+g12
+I00
+sg13
+(lp298
+F23.0
+aF518.0
+asg15
+(itiddlywiki
+Tiddler
+p299
+(dp300
+g19
+V<<set $foundenemy = 1>>\u000aIt sounded like scratching... which is unusual for something desolate.\u000a\u000aYou take the time to investigate around the greenhouse until you saw "it"!\u000a\u000aIt... of all the imagined aliens, they fell short of this. It was homonid shaped. But that's the only thing that didn't look natural.\u000a\u000aAs soon as your eyes met the creature your adrenaline rushed and you stared at a state of shock. Then the creature noticed you and lurched right at you, breaking through the greenhouse wall and activating the self healing panels.\u000a\u000aYour feet started moving on its own, trying to get away. You don't know why but you chose to run straight at the tree, putting it between you and the creature.\u000a\u000aThe creature jumped but miscalculated and hit a tree branch, breaking it off, then you heard a screeching howl as it writhed on the ground.\u000a\u000aWithout thinking you grapped the broken branch and jabbed the end at the alien. Suddenly you heard a strong sizzle and more screams as the creature backed off before bolting out of the greenhouse, breaking through another wall.\u000a\u000aALIENS!\u000a\u000aYour legs wobbled... as you tried to get a grip on what happened. You encountered. It attacked, you fended it off... and the stick...\u000a\u000aYou took a look at the stick, it was oddly too effective. Then you noticed it was dripping sap profusely, one of the side effects that makes an instant tree grow quickly.\u000a\u000aCould it be the sap is toxic to them? It seemed to be the case. You decide it's probably worth collecting the sap in case that creature... or more of them return.\u000a\u000aYou take some time to fix the greenhouse walls... blast, you probably lost some oxygen. <<set $oxygen -= 1>>\u000a\u000aAfter fixing it, you set up perimeter sensors.\u000a\u000a[[after you feel like you prepared the camp enough, you go to sleep for the next day...|Camp]]
+p301
+sg21
+VFirst Encounter Greenhouse
+p302
+sg23
+g24
+((I2015
+I4
+I19
+I19
+I45
+I33
+I6
+I109
+I1
+tp303
+(dp304
+tp305
+Rp306
+sg29
+(lp307
+Vonetime
+p308
+aVbattle
+p309
+asg32
+g24
+((I2015
+I4
+I19
+I16
+I45
+I13
+I6
+I109
+I1
+tp310
+(dp311
+tp312
+Rp313
+sbsa(dp314
+g12
+I00
+sg13
+(lp315
+F224.0
+aF524.0
+asg15
+(itiddlywiki
+Tiddler
+p316
+(dp317
+g19
+V<<nobr>>\u000a<<if $enemynumber < 2>><<set $enemynumber = 2>><<endif>>\u000a<<set $enemyAttackNumber = either(1,2,3,$enemynumber)>>\u000a<<endnobr>>\u000aAs soon as the proximity alarm rings you spring into action. You find yourself <<print either("\u000a\u000aSoon you finally see what it is, confirming that it is them.\u000a\u000aYou spot <<$enemynumber>> <<print either("uncanny humanoids, unmistakably aliens","ugly creatures","aliens")>>. \u000a<<if $enemypower is 1>>\u005c\u000aThey look like the one you first encountered. It looks like they haven't learned about your sap.\u000a<<else if $enemypower is 2>>\u005c\u000aThey seem to be wearing something now, some sort of rudimentary clothes. It seems they are figuring out the nature of your weapon.\u000a<<else if $enemypower < 5>>\u005c\u000aThey have come prepared this time and most are covered to try to protect against your biotoxins.\u000a<<else if $enemypower > 4>>\u005c\u000aAfter all the skirmishes they had with you, they are now heavily armored... but thankfully they don't have much for weapons, much less modern ones. You feel like this is probably the best equipment they got.\u000a<<endif>>\u000aYou double check your <<print either("'ammo'","amount of biotoxins you have","container holding the sap")>>, you got <<$biotoxin>> tablespoons.\u000a\u000aHow should you take them on?\u000a\u000a[[Go all out|Battle Result][$ferocity = 3; $greenhouse = 1]]\u000a[[Skirmish|Battle Result][$ferocity = 2; $greenhouse = 1]]\u000a[[Defensively|Battle Result][$ferocity = 1; $greenhouse = 1]]
+p318
+sg21
+VGreenhouse Battle
+p319
+sg23
+g24
+((I2015
+I4
+I20
+I17
+I57
+I42
+I0
+I110
+I1
+tp320
+(dp321
+tp322
+Rp323
+sg29
+(lp324
+VcoreLoop
+p325
+aVbattle
+p326
+asg32
+g24
+((I2015
+I4
+I19
+I16
+I45
+I51
+I6
+I109
+I1
+tp327
+(dp328
+tp329
+Rp330
+sbsa(dp331
+g12
+I00
+sg13
+(lp332
+F780.0
+aF148.0
+asg15
+(itiddlywiki
+Tiddler
+p333
+(dp334
+g19
+V<<nobr>>\u000a<<if $enemynumber < 2>><<set $enemynumber = 2>><<endif>>\u000a<<set $enemyAttackNumber = either(2,3,4,$enemynumber)>>\u000a<<endnobr>>\u000aAs soon as the proximity alarm rings you spring into action. You find yourself <<print either("pretty close to your base camp, although you know you can't sneak that far without getting spotted, you make a low profile and scan the area to see what your options are.","near a large rock, you use it for cover to figure out what you plan is.","next to a shallow crater and you take the time to hop over the edge and hunker down to figure out your next move.")>>\u000a\u000aSoon you finally see what it is, confirming that it is them.\u000a\u000aYou spot <<$enemynumber>> <<print either("uncanny humanoids, unmistakably aliens","ugly creatures","aliens")>>. \u000a<<if $enemypower is 1>>\u005c\u000aThey look like the one you first encountered. It looks like they haven't learned about your sap.\u000a<<else if $enemypower is 2>>\u005c\u000aThey seem to be wearing something now, some sort of rudimentary clothes. It seems they are figuring out the nature of your weapon.\u000a<<else if $enemypower < 5>>\u005c\u000aThey have come prepared this time and most are covered to try to protect against your biotoxins.\u000a<<else if $enemypower > 4>>\u005c\u000aAfter all the skirmishes they had with you, they are now heavily armored... but thankfully they don't have much for weapons, much less modern ones. You feel like this is probably the best equipment they got.\u000a<<endif>>\u000aYou double check your <<print either("'ammo'","amount of biotoxins you have","container holding the sap")>>, you got <<$biotoxin>> tablespoons.\u000a\u000aHow should you take them on?\u000a[[Go all out|Battle Result][$ferocity = 3; $greenhouse = 0]]\u000a[[Skirmish|Battle Result][$ferocity = 2; $greenhouse = 0]]\u000a[[Defensively|Battle Result][$ferocity = 1; $greenhouse = 0]]
+p335
+sg21
+VExploration Battle
+p336
+sg23
+g24
+((I2015
+I4
+I20
+I17
+I58
+I11
+I0
+I110
+I1
+tp337
+(dp338
+tp339
+Rp340
+sg29
+(lp341
+VcoreLoop
+p342
+aVbattle
+p343
+asg32
+g24
+((I2015
+I4
+I19
+I16
+I47
+I1
+I6
+I109
+I1
+tp344
+(dp345
+tp346
+Rp347
+sbsa(dp348
+g12
+I00
+sg13
+(lp349
+F515.0
+aF532.0
+asg15
+(itiddlywiki
+Tiddler
+p350
+(dp351
+g19
+V<<set $foundenemy = 1>>\u000aIt's far away but it's without a doubt, movement. You look back at the base camp nearby and back at where you thought you saw something.\u000a\u000aThen without warning you see a shape barreling straight at you. Without thinking you scramble and jump as fast as you can back to the camp. You don't know what it is but your instincts are screaming run!\u000a\u000aYou need to get in quickly, the pressurization chamber is too slow. Looking back you see it getting closer and decided to jump through the Grenhouse walls, at least they are self sealing.\u000a\u000aA few moments later you hear another break as "It" entered in behind you.\u000a\u000aIt... of all the imagined aliens, they fell short of this. It was homonid shaped. But that's the only thing that didn't look natural.\u000a\u000aYour feet started moving on its own, trying to get away. You don't know why but you chose to run straight at the tree, putting it between you and the creature.\u000a\u000aThe creature jumped but miscalculated and hit a tree branch, breaking it off, then you heard a screeching howl as it writhed on the ground.\u000a\u000aWithout thinking you grapped the broken branch and jabbed the end at the alien. Suddenly you heard a strong sizzle and more screams as the creature backed off before bolting out of the greenhouse, breaking through another wall.\u000a\u000aALIENS!\u000a\u000aYour legs wobbled... as you tried to get a grip on what happened. You encountered. It attacked, you fended it off... and the stick...\u000a\u000aYou took a look at the stick, it was oddly too effective. Then you noticed it was dripping sap profusely, one of the side effects that makes an instant tree grow quickly.\u000a\u000aCould it be the sap is toxic to them? It seemed to be the case. You decide it's probably worth collecting the sap in case that creature... or more of them return.\u000a\u000aYou take some time to fix the greenhouse walls... blast, you probably lost some oxygen. <<set $oxygen -= 1>>\u000a\u000aAfter fixing it, you set up perimeter sensors.\u000a\u000a[[after you feel like you prepared the camp enough, you go to sleep for the next day...|Camp]]
+p352
+sg21
+VFirst Encounter Outside
+p353
+sg23
+g24
+((I2015
+I4
+I19
+I19
+I46
+I24
+I6
+I109
+I1
+tp354
+(dp355
+tp356
+Rp357
+sg29
+(lp358
+Vonetime
+p359
+aVbattle
+p360
+asg32
+g24
+((I2015
+I4
+I19
+I16
+I47
+I42
+I6
+I109
+I1
+tp361
+(dp362
+tp363
+Rp364
+sbsa(dp365
+g12
+I00
+sg13
+(lp366
+F277.0
+aF134.0
+asg15
+(itiddlywiki
+Tiddler
+p367
+(dp368
+g19
+VYou stare at the message...\u000a\u000ait's a deed.\u000a\u000aA deed to the asteroid you're on! You did it!\u000a\u000aYou stare outside the window of your cockpit. This whole landscape... is yours. It feels so surreal.\u000a\u000aLooking back at the screen you send out the verification message that you recieved and accept the deed. A few moments later you get a message detailing the schedule of your debriefing, one of those fine print terms you have to follow, go figure.\u000a\u000aIt's going to be strange coming back to civilization... to tell the story of your time in Z32.\u000a\u000aYou take the time to pack up your equipment, leaving the shell of the base camp on the surface.\u000a\u000aIt's time to go home.
+p369
+sg21
+VSuccess!
+p370
+sg23
+g24
+((I2015
+I4
+I19
+I17
+I33
+I31
+I6
+I109
+I1
+tp371
+(dp372
+tp373
+Rp374
+sg29
+(lp375
+Vending
+p376
+asg32
+g24
+((I2015
+I4
+I19
+I16
+I48
+I55
+I6
+I109
+I1
+tp377
+(dp378
+tp379
+Rp380
+sbsa(dp381
+g12
+I00
+sg13
+(lp382
+F152.0
+aF133.0
+asg15
+(itiddlywiki
+Tiddler
+p383
+(dp384
+g19
+VYou finally reach the cockpit and set the routine for emergency takeoff. There's a lot of stuff still at the base camp ground but you're not in any shape to load it.\u000a\u000aA few moments later your ship beeps, indicating it's ready to launch. You start the sequence and after a minute of acceleration, you're on your way out.\u000a\u000aYou breathe a bit more easily as the ship's emergency reserves kick in and find that there's enough to get you just out of Z32. Typing in the commands you program the ship to send a distress signal as you exit.\u000a\u000aYou're tired... but you're alive still. At the very least you got a story to tell... although the fact you were <<print 30-$days>> days away from claiming that giant asteroid makes it hard. Maybe you'll write a book on your expedition and make some money at least.\u000a\u000aYou go back to your sleep capsule and turn it on, you can't wait to get home.
+p385
+sg21
+VEscape!
+p386
+sg23
+g24
+((I2015
+I4
+I19
+I17
+I42
+I4
+I6
+I109
+I1
+tp387
+(dp388
+tp389
+Rp390
+sg29
+(lp391
+Vending
+p392
+asg32
+g24
+((I2015
+I4
+I19
+I16
+I49
+I43
+I6
+I109
+I1
+tp393
+(dp394
+tp395
+Rp396
+sbsa(dp397
+g12
+I00
+sg13
+(lp398
+F406.0
+aF394.0
+asg15
+(itiddlywiki
+Tiddler
+p399
+(dp400
+g19
+V<<nobr>>\u000a/% Lots of battle logic %/\u000a\u000a/% How many aliens engage with you %/\u000a<<if $ferocity is 3>>\u000a	<<set $enemyEngaged = $enemyAttackNumber>>\u000a	<<set $enemyRun = 0>>\u000a<<else if $ferocity is 2>>\u000a	<<set $enemyEngaged = either(2,($enemyAttackNumber-1),$enemyAttackNumber)>>\u000a	<<set $enemyRun = $enemyAttackNumber-$enemyEngaged>>\u000a<<else if $ferocity is 1>>\u000a	<<set $enemyEngaged = 1>>\u000a	<<set $enemyRun = $enemyAttackNumber-$enemyEngaged>>\u000a<<endif>>\u000a<<endnobr>>\u000a<<if $ferocity is 3>>\u005c\u000aYou decide to go all out! Without warning you rush out to the <<$enemyEngaged>> aliens with your trusty <<print either("stick swinging wildly","toxic weapon pointed at them","branch in hand, throwing biotoxin covered projectiles")>>.\u000a<<else if $ferocity is 2>>\u005c\u000aUsing your toxic covered projectiles you decide to do a skirmish battle. Luckily you got the element of surprise. You try to take on as many as you safely can.\u000a<<else>>\u005c\u000aYou go on the defense, as soon as the aliens spot you, you double down and hold your weapon in hand. Your skills of playing hologames has helped you greatly as you outmaneuver and engage with a single target.\u000a<<endif>>\u000a<<nobr>>\u000a/% How many you take out & damage received %/\u000a<<set $totalEnemyHp = $enemyEngaged*4*$enemypower>>\u000a<<set $totalEnemyHp -= $biotoxin>>\u000a<<if $totalEnemyHp < 0>>\u000aYour battle was a great success! You greatly wounded all you got to engage with and didn't get a scratch on you. Your biotoxins did all the work you must admit but it feels good.\u000a	<<set $biotoxin -= $totalEnemyHp>>\u000a	<<set $playerDamage = 0>>\u000a<<else if $totalEnemyHp > 0 and $totalEnemyHp < (4*$enemypower)>>\u000aYou battle it out and had a close call. You used all of your biotoxins to take on all the aliens, wounding them and you didn't recieve any major hits.\u000a	<<set $biotoxin = 0>>\u000a	<<set $playerDamage = 0>>\u000a<<else if $totalEnemyHp > (4*$enemypower)>>\u000aThis battle didn't turn out well... on top of running out of toxins the enemy got the advantage and took shots of you, you still dealt injuries but one of them retreated without a scratch.\u000a	<<set $biotoxin = 0>>\u000a	<<set $playerDamage = 1>>\u000a	<<set $enemyRun += 1>>\u000a<<endif>>\u000a<<endnobr>>\u000a\u000a<<nobr>>\u000a/% What kind of damge you receive %/\u000a<<if $playerDamage is 1>>\u000a	<<if $greenhouse is 1>>\u000aOn top of the battle not going well, you couldn't avoid the battle going into the greenhouse. The walls sealed up but you know you lost some oxygen <<set $oxygen -= 1>> and one of your trees got damaged beyond repair.\u000a		<<if Math.random(0)*2 > 1>>\u000aThankfully the tree did what it was programmed and dropped an emergency seed. You take the time to plant it to replace it.\u000a		<<else>>\u000aUnfortunately it was too damaged for a seed to form and you lost the tree. <<set $treeNumber -= 1>><<set $playerhp -= 1 >>\u000a		<<endif>>\u000a	<<else>>\u000aThankfully your suit held up to the abuse however you ache all over. You limp on back to your camp to patch yourself up. <<set $playerhp -= Math.random(1)*3>>\u000a	<<endif>>\u000a\u000a<<else>>\u000a	<<if $greenhouse is 1>>\u000aYou did well defending your camp today. \u000a		<<if Math.random(0)*2 > 1>>\u000aUnfortunately the fight got into the greenhouse and you lost some precious oxygen <<set $oxygen -= 1>>, but the trees are alright. \u000a		<<else>>\u000aYou luckily kept the fight out of the greenhouse, that's one more thing to be happy about. \u000a		<<endif>>\u000a	<<else>>\u000aYou're tired but feeling fine. You make your way back to camp and thankfully it was undisturbed. \u000a	<<endif>>\u000a<<endif>>\u000a/% End battle %/\u000a<<set $enemynumber -= ($enemyAttackNumber - $enemyRun)>>\u000a<<endnobr>>\u000a\u000a[[With the day getting late, you decide to sleep early for the night.|Camp]]
+p401
+sg21
+VBattle Result
+p402
+sg23
+g24
+((I2015
+I4
+I20
+I17
+I59
+I29
+I0
+I110
+I1
+tp403
+(dp404
+tp405
+Rp406
+sg29
+(lp407
+sg32
+g24
+((I2015
+I4
+I20
+I16
+I24
+I2
+I0
+I110
+I1
+tp408
+(dp409
+tp410
+Rp411
+sbsasS'scale'
+p412
+I1
+sS'snapping'
+p413
+I00
+ss.
